@@ -1,6 +1,6 @@
 <?php 
 
-$var ='abcdef';
+/*$var ='abcdef';
 
 echo '<pre>';
 print_r($_GET);
@@ -14,7 +14,7 @@ if($strlen){
 	echo '';
 	}*/
 	
-$substr = $_GET['substr']?? '';
+/*$substr = $_GET['substr']?? '';
 
 if($substr){
 	echo 'substr => ' . substr($strlen) .'<br>';
@@ -34,7 +34,7 @@ if($key){
 	print_r(explode(
 */
 
-$letter = 'Привет,  %name%!  Как ты?';
+/*$letter = 'Привет,  %name%!  Как ты?';
 $name = 'Иван';
 echo strtr(
 	$letter,
@@ -55,5 +55,11 @@ echo '<pre>';
 [4,5,6,],
 [15,18,20,]));*/
 
-echo getcwd() . '<br>';
+//echo getcwd() . '<br>';
+
+/*echo '<pre>';
+print_r($_SERVER);
+echo '</pre>';*/
+
+require('../src/main.php');
 
