@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*$var ='abcdef';
 
@@ -13,7 +13,7 @@ $var3 = $_GET['var3']?? '';
 if($strlen){
 	echo '';
 	}*/
-	
+
 /*$substr = $_GET['substr']?? '';
 
 if($substr){
@@ -43,7 +43,7 @@ echo strtr(
 echo '<br>';
 
 //include 'function.php'; // подключение файла с функциями, если его нет продолжит работу
-require 'function.php'; 
+require 'function.php';
 
 $list = scanFolder('.'); //вызов функции
 echo '<pre>';
@@ -61,5 +61,6 @@ echo '<pre>';
 print_r($_SERVER);
 echo '</pre>';*/
 
-require('../src/main.php');
+require('../vendor/autoload.php');
 
+require('../src/main.php');
